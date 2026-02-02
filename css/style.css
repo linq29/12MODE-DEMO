@@ -50,6 +50,10 @@ body {
     min-width: 1200px;
 }
 
+small {
+    font-size: 0.8em;
+}
+
 main {
     background-color: #f6efe5;
 }
@@ -312,7 +316,7 @@ h1 {
     border: 2px solid #b18b09;
     background-color: white;
     margin: 2rem 2rem 0 2rem;
-    padding: 2rem 2rem 4rem 2rem;
+    padding: 2rem;
 }
 
 .index-func h2 {
