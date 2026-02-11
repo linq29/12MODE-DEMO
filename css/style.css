@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import url(normalize.css);
 
-/* 共通設定 */
+/* UNIVERSAL */
 * {
     margin: 0;
     padding: 0;
@@ -423,14 +423,6 @@ h1 {
     }
 }
 
-/* Existing styles (for reference) */
-main.whole {
-    border-left: 2px solid #b18b09;
-    border-right: 2px solid #b18b09;
-    height: 100vh;
-    padding: 4em;
-}
-
 .select-step1 {
     margin: 2rem auto;
 }
@@ -520,9 +512,7 @@ main.index {
 
 .spot-id {
     font-family: "Kaisei Decol", serif;
-    /* Match navigation for prominence */
     font-size: 2.5rem;
-    /* Slightly larger than h1 for emphasis */
     color: #950303;
     margin: 0;
 }
@@ -531,7 +521,6 @@ main.index {
     font-family: "Shippori Mincho", serif;
     font-size: 1.1rem;
     color: #b18b09;
-    /* Accent color for contrast */
     margin: 0;
     letter-spacing: 0.1em;
 }
@@ -545,7 +534,6 @@ main.index {
     margin: 1.5rem 0;
     padding: 0.5rem 1rem;
     background-color: rgba(181, 139, 9, 0.1);
-    /* Subtle background */
     border-radius: 5px;
 }
 
@@ -559,9 +547,7 @@ main.index {
 
 .spot-site {
     text-align: center;
-    /* Center-align the container */
     margin: 0 0 2rem 0;
-    /* Vertical spacing only */
 }
 
 .spot-site a {
@@ -569,11 +555,8 @@ main.index {
     font-weight: 500;
     font-size: 0.9rem;
     text-decoration: none;
-    /* Clean look */
     display: inline-block;
-    /* Ensure proper centering */
     transition: color 0.3s ease;
-    /* Smooth hover transition */
 }
 
 .spot-site a:hover {
@@ -595,11 +578,6 @@ hr {
     margin: 1.5rem 0 0;
 }
 
-/* Footer override for shrine pages */
-/* main.index+footer {
-    margin-top: 3rem;
-    padding-bottom: 2rem;
-} */
 
 /* for jyunishi.html */
 .selection-area {
@@ -640,7 +618,6 @@ hr {
     background-color: #fff;
 }
 
-/* Updated Button Styles (override general button styles) */
 #confirmBtn,
 #retryBtn {
     padding: 0.8rem 2rem;
@@ -663,7 +640,6 @@ hr {
 #retryBtn {
     background-color: #950303;
     display: none;
-    /* Initially hidden */
     margin: 1.5rem auto;
 }
 
@@ -723,17 +699,6 @@ main.whole {
     padding-top: 2rem;
 }
 
-
-
-
-/* Existing styles (for reference) */
-main.whole {
-    border-left: 2px solid #b18b09;
-    border-right: 2px solid #b18b09;
-    height: 100vh;
-    padding: 4em;
-}
-
 h1 {
     color: #950303;
     font-size: 2rem;
@@ -741,7 +706,7 @@ h1 {
     margin: 2rem 0;
 }
 
-/* New styles for kotowaza.html */
+/* for kotowaza.html */
 .proverb-area {
     text-align: center;
     margin: 2rem 0;
@@ -782,7 +747,6 @@ h1 {
     font-weight: 500;
     color: #fff;
     background-color: #950303;
-    /* Red to match proverb theme */
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -791,10 +755,15 @@ h1 {
 
 .retry-btn:hover {
     background-color: #c9302c;
-    /* Brighter red on hover */
     transform: translateY(-2px);
 }
 
 .kotowaza {
     text-align: center;
+}
+
+/* others */
+.demonote {
+    font-size: 0.5em;
+    font-weight: normal;
 }
