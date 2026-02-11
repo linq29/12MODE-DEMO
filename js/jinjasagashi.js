@@ -37,6 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const randomBtn = document.getElementById("randomShrineBtn");
 
     randomBtn.addEventListener("click", () => {
-        window.location.href = "#";
+        window.location.href = "blessings.html";
     });
 });
