@@ -36,3 +36,30 @@ const proverbs = [
     { "hiragana": "<ruby>猪<rt>いのしし</rt></ruby>も<ruby>七代目<rt>しちだいめ</rt></ruby>には<ruby>豕<rt>ぶた</rt></ruby>になる", "proverbDesc": "変わらないように見えても、長い年月の間には成長・変化することのたとえ。" },
     { "hiragana": "<ruby>山<rt>やま</rt></ruby>より<ruby>大<rt>おお</rt></ruby>きな<ruby>猪<rt>いのしし</rt></ruby>は<ruby>出<rt>で</rt></ruby>ぬ", "proverbDesc": "入れ物よりも大きな中身などあり得ないというたとえ。また、大げさな言い方もほどほどにしろということ。" }
 ];
+
+document.addEventListener('DOMContentLoaded', () => {
+    const proverbText = document.getElementById('proverbText');
+    const proverbDesc = document.getElementById('proverbDesc');
+    const retryBtn = document.getElementById('retryBtn');
+
+    // 最初はボタンを非表示にする（念のためJS側でも制御）
+    retryBtn.style.display = "none";
+
+    // ランダムにことわざを表示
+    function displayRandomProverb() {
+        const randomIndex = Math.floor(Math.random() * proverbs.length);
+        const proverb = proverbs[randomIndex];
+
+        proverbText.innerHTML = proverb.hiragana;
+        proverbDesc.textContent = proverb.proverbDesc;
+
+        // 表示後にボタンを出す
+        retryBtn.style.display = "block";
+    }
+
+    // 初回表示
+    displayRandomProverb();
+
+    // もう一度引く
+    retryBtn.addEventListener('click', displayRandomProverb);
+});
