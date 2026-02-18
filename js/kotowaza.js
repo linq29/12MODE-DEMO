@@ -1,21 +1,4 @@
 const proverbs = [
-    { "hiragana": "<ruby>鼠<rt>ねずみ</rt></ruby>も<ruby>虎<rt>とら</rt></ruby>の<ruby>如<rt>ごと</rt></ruby>し", "proverbDesc": "勢いに乗って攻め込むときなどは、弱い者でも相手を圧倒するような激しさを示すたとえ。" },
-    { "hiragana": "<ruby>大山<rt>たいざん</rt></ruby><ruby>鳴動<rt>めいどう</rt></ruby>して<ruby>鼠<rt>ねずみ</rt></ruby><ruby>一匹<rt>いっぴき</rt></ruby>", "proverbDesc": "騒ぎばかりが大きいわりに、取り立てていうほどの事件もなかったことのたとえ。" },
-    { "hiragana": "<ruby>鼠<rt>ねずみ</rt></ruby>が<ruby>塩<rt>しお</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>く", "proverbDesc": "小事が積もり積もって大事になることのたとえ。" },
-    { "hiragana": "<ruby>黄牛<rt>あめうし</rt></ruby>に<ruby>突<rt>つ</rt></ruby>かれる", "proverbDesc": "油断をして、思いがけない相手にやりこめられてしまうことのたとえ。" },
-    { "hiragana": "<ruby>牛<rt>うし</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>かれて<ruby>善光寺<rt>ぜんこうじ</rt></ruby><ruby>参<rt>まい</rt></ruby>り", "proverbDesc": "思いがけないことが縁で偶然よい方に導かれる。" },
-    { "hiragana": "<ruby>牛<rt>うし</rt></ruby>の<ruby>歩<rt>あゆ</rt></ruby>みも<ruby>千里<rt>せんり</rt></ruby>", "proverbDesc": "遅くても早くても、下手でも上手でも、怠らず努力し続ければ成果があがることのたとえ。" },
-    { "hiragana": "<ruby>虎<rt>とら</rt></ruby>は<ruby>千里<rt>せんり</rt></ruby><ruby>往<rt>い</rt></ruby>って<ruby>千里<rt>せんり</rt></ruby><ruby>還<rt>かえ</rt></ruby>る", "proverbDesc": "活力に満ちた、行動力のあるさまなどを表す言い回し。また、親の、子に対する愛情が強いことのたとえ。" },
-    { "hiragana": "<ruby>虎穴<rt>こけつ</rt></ruby>に<ruby>入<rt>い</rt></ruby>らずんば<ruby>虎子<rt>こじ</rt></ruby>を<ruby>得<rt>え</rt></ruby>ず", "proverbDesc": "危険を冒さなければ、大きな成功は得られないことのたとえ。" },
-    { "hiragana": "<ruby>虎<rt>こ</rt></ruby><ruby>視<rt>し</rt></ruby><ruby>眈々<rt>たんたん</rt></ruby>", "proverbDesc": "虎が獲物を狙って身構えるように、強い者が機会を狙って形勢をうかがっているさま。" },
-    { "hiragana": "<ruby>兎<rt>うさぎ</rt></ruby>の<ruby>登<rt>のぼ</rt></ruby>り<ruby>坂<rt>ざか</rt></ruby>", "proverbDesc": "持ち前の力を振るうことができて、物事が早く進むたとえ。" },
-    { "hiragana": "<ruby>狡<rt>こう</rt></ruby><ruby>兔<rt>と</rt></ruby><ruby>三<rt>さん</rt></ruby><ruby>窟<rt>くつ</rt></ruby>", "proverbDesc": "たくさんの避難場所やさまざまな策を用意するたとえ。難を逃れるのに巧みなたとえ。" },
-    { "hiragana": "<ruby>二兎<rt>にと</rt></ruby>を<ruby>追<rt>お</rt></ruby>う<ruby>者<rt>もの</rt></ruby>は<ruby>一兎<rt>いっと</rt></ruby>をも<ruby>得<rt>え</rt></ruby>ず", "proverbDesc": "同時に違った二つの事をしようとすれば、結局どちらも成功しないというたとえ。" },
-    { "hiragana": "<ruby>雲<rt>くも</rt></ruby>は<ruby>龍<rt>りゅう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>い、<ruby>風<rt>かぜ</rt></ruby>は<ruby>虎<rt>とら</rt></ruby>に<ruby>従<rt>したが</rt></ruby>う", "proverbDesc": "相似た性質を持った者同士が互いに求め合う。りっぱな君主のもとにはすぐれた臣下が現れるということのたとえ。" },
-    { "hiragana": "<ruby>龍<rt>りゅう</rt></ruby>の<ruby>水<rt>みず</rt></ruby>を<ruby>得<rt>え</rt></ruby>る<ruby>如<rt>ごと</rt></ruby>し", "proverbDesc": "龍が水を得て昇天するように、強いものがいっそう勢いを得ること。また、ところや時宜を得て大いに活躍すること。" },
-    { "hiragana": "<ruby>画<rt>が</rt></ruby><ruby>竜<rt>りょう</rt></ruby><ruby>点<rt>てん</rt></ruby><ruby>睛<rt>せい</rt></ruby>", "proverbDesc": "物事の眼目、中心となる大切な部分を付け加えれば、物事を完全に仕上げること。" },
-    { "hiragana": "<ruby>蛇<rt>へび</rt></ruby>の<ruby>足<rt>あし</rt></ruby>より<ruby>人<rt>ひと</rt></ruby>の<ruby>足<rt>あし</rt></ruby><ruby>見<rt>み</rt></ruby>よ", "proverbDesc": "必要もないことをしたために災いを受けるたとえ。" },
-    { "hiragana": "<ruby>蛇<rt>じゃ</rt></ruby>の<ruby>道<rt>みち</rt></ruby>は<ruby>蛇<rt>へび</rt></ruby>", "proverbDesc": "同類のすることは、その方面の者にはすぐわかるというたとえ。" },
     { "hiragana": "<ruby>蛇<rt>じゃ</rt></ruby>は<ruby>寸<rt>すん</rt></ruby>にして<ruby>人<rt>ひと</rt></ruby>を<ruby>呑<rt>の</rt></ruby>む", "proverbDesc": "すぐれた人物が幼少の頃から抜きんでた素質を示すことのたとえ。" },
     { "hiragana": "<ruby>馬<rt>うま</rt></ruby>は<ruby>馬<rt>うま</rt></ruby><ruby>連<rt>づ</rt></ruby>れ", "proverbDesc": "同類のものが集まることで物事がうまくいくことのたとえ。" },
     { "hiragana": "<ruby>人間<rt>にんげん</rt></ruby><ruby>万事<rt>ばんじ</rt></ruby><ruby>塞翁<rt>さいおう</rt></ruby>が<ruby>馬<rt>うま</rt></ruby>", "proverbDesc": "人生の禍福は転々として予測できないことのたとえ。" },
@@ -41,17 +24,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const proverbText = document.getElementById('proverbText');
     const proverbDesc = document.getElementById('proverbDesc');
     const retryBtn = document.getElementById('retryBtn');
+    const proverbArea = document.querySelector('.proverb-area');
 
-    // 最初はボタンを非表示にする（念のためJS側でも制御）
+    // 最初はボタンを非表示にする
     retryBtn.style.display = "none";
 
-    // ランダムにことわざを表示
+    // ランダムにことわざを表示＋ぼかし演出
     function displayRandomProverb() {
         const randomIndex = Math.floor(Math.random() * proverbs.length);
         const proverb = proverbs[randomIndex];
 
         proverbText.innerHTML = proverb.hiragana;
         proverbDesc.textContent = proverb.proverbDesc;
+
+        proverbArea.classList.remove('is-revealing');
+        // reflowでアニメーションを再トリガー
+        void proverbArea.offsetWidth;
+        proverbArea.classList.add('is-revealing');
 
         // 表示後にボタンを出す
         retryBtn.style.display = "block";

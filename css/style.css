@@ -730,6 +730,24 @@ h1 {
     font-weight: 400;
 }
 
+.proverb-area.is-revealing {
+    animation: proverbReveal 0.5s ease-out;
+}
+
+@keyframes proverbReveal {
+    from {
+        opacity: 0;
+        filter: blur(10px);
+        transform: translateY(6px);
+    }
+
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
 .proverb-desc {
     font-family: "Shippori Mincho", serif;
     font-size: 1.2rem;

@@ -34,9 +34,10 @@
 
 ## 使用技術
 
-- HTML / CSS  
-- React（コンポーネント設計、状態管理）
-- Photoshop / Illustrator（画面設計・素材制作）
+- HTML / CSS 
+- JavaScript / React （フロントエンド）
+- Node.js / SQLite （バックエンド）
+- Photoshop / Illustrator （画面設計・素材制作）
 
 
 ## 制作時期
